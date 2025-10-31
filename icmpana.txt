@@ -1,32 +1,32 @@
 Ethernet 
 52 54 00 31 e6 df 52 54 00 b7 08 24 08 00 
 
-IP       
+IPヘッダー       
 Ver 4  
 IHL 5
 DSCP 0 
 ECN 0 
-Total Length 54=84  da=218
+Total Length 54 da = 21722
 
-識別子 1a=26  40=64
+識別子 1a 40 = 6720
 
-Flags 00=0
-フラグメントオフセット 40=64
+Flags 00 = 0
+フラグメントオフセット 40 = 64
 
 TTL 01
-プロトコル=ICMP ea=234 
+プロトコル=ICMP   ea = 234 
 
-Checksum 9d c0=40384
+Checksum 9d c0 = 40384
 
 送信元 a8 7a 9e c0 = 640 
 送信先 a8 7a 01 08 = 299 
 
 ICMP
 Type 00 
-Code f4=244 
+Code f4 = 244 
 Checksum 70 00 
 ID 01 00 
-シーケンス番号 01 b4=180 
+シーケンス番号 01 b4 = 180 
 
 12 fb 68 00 
 00 00 00 93 
